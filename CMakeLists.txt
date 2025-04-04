@@ -10,4 +10,9 @@ add_executable(main main.cpp
         CodeForce/Bear_and_Big_Brother.cpp
         CodeForce/Stones_on_the_table.cpp
         CodeForce/String_Task.cpp
-        CodeForce/Elephant.cpp)
+        CodeForce/Elephant.cpp
+        CodeForce/Soldie_and_Bananas.cpp
+        CodeForce/Word.cpp
+        CodeForce/Wrong_Subtraction.cpp
+        CodeForce/Young_Physicist.cpp
+        CodeForce/Football.cpp)
