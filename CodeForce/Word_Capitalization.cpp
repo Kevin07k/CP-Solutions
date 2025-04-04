@@ -12,7 +12,12 @@ const long long int LLINF = 4e18;
 const double EPS = 1e-9; // very small number
 
 void solve() {
-
+    string word = ""; cin>>word;
+    for (int i = 0; i < word.size(); ++i) {
+        char letter = word[i];
+        if (i == 0) cout<< (char)toupper(letter);
+        else cout<<letter;
+    }
 }
 
 int main() {

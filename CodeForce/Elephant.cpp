@@ -12,7 +12,18 @@ const long long int LLINF = 4e18;
 const double EPS = 1e-9; // very small number
 
 void solve() {
+    int position_friend = 0, init_position = 0, cont_steps = 0;
+    cin >> position_friend;
+    while (init_position < position_friend) {
+        init_position += 5;
+        cont_steps++;
+    }
+    init_position -= 5;
+    cont_steps--;
+    short int res = position_friend - init_position;
 
+    if (init_position == position_friend) cout << cont_steps;
+    else cout << ++cont_steps;
 }
 
 int main() {
